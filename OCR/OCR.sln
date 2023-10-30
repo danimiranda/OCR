@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCR", "OCR.csproj", "{2525497F-429E-4AEF-A0A5-D6C56349C6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR.Services", "..\OCR.Services\OCR.Services.csproj", "{0929618D-BFA9-48F6-A17D-60843F0D53B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCR.Contracts", "..\OCR.API\OCR.Contracts\OCR.Contracts.csproj", "{1B21399A-35DC-419B-8DDE-6E5E0D278E32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR.Data", "..\OCR.Data\OCR.Data.csproj", "{3C10E661-D5E1-416B-B316-A4C547180D55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2525497F-429E-4AEF-A0A5-D6C56349C6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2525497F-429E-4AEF-A0A5-D6C56349C6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2525497F-429E-4AEF-A0A5-D6C56349C6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2525497F-429E-4AEF-A0A5-D6C56349C6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0929618D-BFA9-48F6-A17D-60843F0D53B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0929618D-BFA9-48F6-A17D-60843F0D53B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0929618D-BFA9-48F6-A17D-60843F0D53B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0929618D-BFA9-48F6-A17D-60843F0D53B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B21399A-35DC-419B-8DDE-6E5E0D278E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B21399A-35DC-419B-8DDE-6E5E0D278E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B21399A-35DC-419B-8DDE-6E5E0D278E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B21399A-35DC-419B-8DDE-6E5E0D278E32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C10E661-D5E1-416B-B316-A4C547180D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C10E661-D5E1-416B-B316-A4C547180D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C10E661-D5E1-416B-B316-A4C547180D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C10E661-D5E1-416B-B316-A4C547180D55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C62298C3-1CF0-4249-9316-DD3B0CD89B7A}
+	EndGlobalSection
+EndGlobal

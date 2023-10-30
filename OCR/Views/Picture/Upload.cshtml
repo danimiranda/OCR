@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Upload";
+}
+
+@model List<OCR.Contracts.Models.PictureModel>
+
+@if (Model != null)
+{
+
+    foreach (var item in Model)
+    {
+        <ul>
+            <li>@item.FileName</li>
+            <li>@item.ImageText</li>
+            <li>@item.ExecutionTime</li>
+        </ul>
+    }
+}

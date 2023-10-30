@@ -1,0 +1,18 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/OCR/bin/Debug/netcoreapp3.1
+/OCR/.vs/OCR/DesignTimeBuild
+/OCR/.vs/OCR/v16
+/OCR/obj/Debug/netcoreapp3.1
+/OCR.API/OCR.API/bin/Debug/netcoreapp3.1
+/OCR.API/OCR.API/obj/Debug/netcoreapp3.1
+/OCR.API/OCR.Contracts/bin/Debug/netcoreapp3.1
+/OCR.API/OCR.Contracts/obj/Debug/netcoreapp3.1
+/OCR.API/OCR.Services/bin/Debug/netcoreapp3.1
+/OCR.API/OCR.Services/obj/Debug/netcoreapp3.1
+/OCR.Data/bin/Debug/netcoreapp3.1
+/OCR.Data/obj/Debug/netcoreapp3.1
+/OCR.Services/bin/Debug/netcoreapp3.1
+/OCR.Services/obj/Debug/netcoreapp3.1
